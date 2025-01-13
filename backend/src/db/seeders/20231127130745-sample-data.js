@@ -17,30 +17,6 @@ const Branch = db.branch;
 
 const ActivitiesData = [
   {
-    description: 'James Clerk Maxwell',
-
-    start_time: new Date(),
-
-    end_time: new Date(),
-
-    // type code here for "relation_one" field
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    description: 'Alfred Kinsey',
-
-    start_time: new Date(),
-
-    end_time: new Date(),
-
-    // type code here for "relation_one" field
-
-    // type code here for "relation_one" field
-  },
-
-  {
     description: 'William Bayliss',
 
     start_time: new Date(),
@@ -53,7 +29,31 @@ const ActivitiesData = [
   },
 
   {
-    description: 'Isaac Newton',
+    description: 'Ernst Haeckel',
+
+    start_time: new Date(),
+
+    end_time: new Date(),
+
+    // type code here for "relation_one" field
+
+    // type code here for "relation_one" field
+  },
+
+  {
+    description: 'Archimedes',
+
+    start_time: new Date(),
+
+    end_time: new Date(),
+
+    // type code here for "relation_one" field
+
+    // type code here for "relation_one" field
+  },
+
+  {
+    description: 'Heike Kamerlingh Onnes',
 
     start_time: new Date(),
 
@@ -67,11 +67,11 @@ const ActivitiesData = [
 
 const BranchesData = [
   {
-    name: 'Alfred Wegener',
+    name: 'Justus Liebig',
 
-    address: 'Alfred Wegener',
+    address: 'Charles Sherrington',
 
-    phone_number: 'Justus Liebig',
+    phone_number: 'Jonas Salk',
 
     // type code here for "relation_one" field
   },
@@ -79,29 +79,29 @@ const BranchesData = [
   {
     name: 'Joseph J. Thomson',
 
-    address: 'Galileo Galilei',
+    address: 'Edwin Hubble',
 
-    phone_number: 'Francis Galton',
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    name: 'James Clerk Maxwell',
-
-    address: 'Hans Selye',
-
-    phone_number: 'Marie Curie',
+    phone_number: 'Richard Feynman',
 
     // type code here for "relation_one" field
   },
 
   {
-    name: 'Franz Boas',
+    name: 'Pierre Simon de Laplace',
 
-    address: 'Lucretius',
+    address: 'Michael Faraday',
 
-    phone_number: 'Erwin Schrodinger',
+    phone_number: 'Willard Libby',
+
+    // type code here for "relation_one" field
+  },
+
+  {
+    name: 'Emil Fischer',
+
+    address: 'Nicolaus Copernicus',
+
+    phone_number: 'Euclid',
 
     // type code here for "relation_one" field
   },
@@ -109,49 +109,49 @@ const BranchesData = [
 
 const ContactsData = [
   {
-    first_name: 'Archimedes',
+    first_name: 'John Dalton',
 
-    last_name: 'William Herschel',
+    last_name: 'Edward Teller',
 
-    email: 'Jean Piaget',
+    email: 'Stephen Hawking',
 
-    phone_number: 'Rudolf Virchow',
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    first_name: 'Paul Dirac',
-
-    last_name: 'Max von Laue',
-
-    email: 'B. F. Skinner',
-
-    phone_number: 'Hermann von Helmholtz',
+    phone_number: 'Marcello Malpighi',
 
     // type code here for "relation_one" field
   },
 
   {
-    first_name: 'Antoine Laurent Lavoisier',
+    first_name: 'Thomas Hunt Morgan',
 
-    last_name: 'Nicolaus Copernicus',
+    last_name: 'Richard Feynman',
 
-    email: 'James Clerk Maxwell',
+    email: 'Euclid',
 
-    phone_number: 'Marie Curie',
+    phone_number: 'Galileo Galilei',
 
     // type code here for "relation_one" field
   },
 
   {
-    first_name: 'Ernest Rutherford',
+    first_name: 'Alfred Binet',
 
-    last_name: 'Paul Ehrlich',
+    last_name: 'Frederick Sanger',
 
-    email: 'Rudolf Virchow',
+    email: 'Paul Ehrlich',
 
-    phone_number: 'Sigmund Freud',
+    phone_number: 'James Clerk Maxwell',
+
+    // type code here for "relation_one" field
+  },
+
+  {
+    first_name: 'Marcello Malpighi',
+
+    last_name: 'Hans Selye',
+
+    email: 'Max von Laue',
+
+    phone_number: 'Robert Koch',
 
     // type code here for "relation_one" field
   },
@@ -159,7 +159,21 @@ const ContactsData = [
 
 const LeadsData = [
   {
-    name: 'Comte de Buffon',
+    name: 'Theodosius Dobzhansky',
+
+    status: 'lost',
+
+    category: 'government',
+
+    // type code here for "relation_one" field
+
+    // type code here for "relation_many" field
+
+    // type code here for "relation_one" field
+  },
+
+  {
+    name: 'Marie Curie',
 
     status: 'won',
 
@@ -173,23 +187,9 @@ const LeadsData = [
   },
 
   {
-    name: 'Nicolaus Copernicus',
+    name: 'Gustav Kirchhoff',
 
     status: 'qualified',
-
-    category: 'corporate',
-
-    // type code here for "relation_one" field
-
-    // type code here for "relation_many" field
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    name: 'Lynn Margulis',
-
-    status: 'contacted',
 
     category: 'individual',
 
@@ -201,11 +201,11 @@ const LeadsData = [
   },
 
   {
-    name: 'Linus Pauling',
+    name: 'Lynn Margulis',
 
-    status: 'new',
+    status: 'lost',
 
-    category: 'corporate',
+    category: 'individual',
 
     // type code here for "relation_one" field
 
@@ -217,33 +217,33 @@ const LeadsData = [
 
 const MetricsData = [
   {
-    name: 'Thomas Hunt Morgan',
+    name: 'Alfred Binet',
 
-    value: 66.02,
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    name: 'Murray Gell-Mann',
-
-    value: 44.83,
+    value: 46.05,
 
     // type code here for "relation_one" field
   },
 
   {
-    name: 'Andreas Vesalius',
+    name: 'Emil Kraepelin',
 
-    value: 68.86,
+    value: 17.92,
 
     // type code here for "relation_one" field
   },
 
   {
-    name: 'William Bayliss',
+    name: 'B. F. Skinner',
 
-    value: 95.05,
+    value: 44.64,
+
+    // type code here for "relation_one" field
+  },
+
+  {
+    name: 'Nicolaus Copernicus',
+
+    value: 22.47,
 
     // type code here for "relation_one" field
   },
@@ -251,7 +251,7 @@ const MetricsData = [
 
 const NotesData = [
   {
-    content: 'Heike Kamerlingh Onnes',
+    content: 'Emil Kraepelin',
 
     // type code here for "relation_one" field
 
@@ -261,7 +261,7 @@ const NotesData = [
   },
 
   {
-    content: 'Hans Bethe',
+    content: 'George Gaylord Simpson',
 
     // type code here for "relation_one" field
 
@@ -271,7 +271,7 @@ const NotesData = [
   },
 
   {
-    content: 'Frederick Gowland Hopkins',
+    content: 'Albert Einstein',
 
     // type code here for "relation_one" field
 
@@ -281,7 +281,7 @@ const NotesData = [
   },
 
   {
-    content: 'Ernst Haeckel',
+    content: 'Willard Libby',
 
     // type code here for "relation_one" field
 
@@ -293,19 +293,19 @@ const NotesData = [
 
 const BranchData = [
   {
-    name: 'Max Born',
+    name: 'Thomas Hunt Morgan',
   },
 
   {
-    name: 'Gustav Kirchhoff',
+    name: 'Claude Levi-Strauss',
   },
 
   {
-    name: 'Marcello Malpighi',
+    name: 'Ludwig Boltzmann',
   },
 
   {
-    name: 'Ernest Rutherford',
+    name: 'Carl Gauss (Karl Friedrich Gauss)',
   },
 ];
 

@@ -197,7 +197,7 @@ export default function WebSite() {
         <FeaturesSection
           projectName={'test-interface'}
           image={['CRM features showcase']}
-          withBg={0}
+          withBg={1}
           features={features_points}
           mainText={`Explore ${projectName} Features`}
           subTitle={`Unlock the full potential of your law firm with ${projectName}'s innovative features designed to streamline operations and enhance collaboration.`}
@@ -206,7 +206,7 @@ export default function WebSite() {
 
         <PricingSection
           projectName={'test-interface'}
-          withBg={0}
+          withBg={1}
           features={pricing_features}
           description={description}
         />
